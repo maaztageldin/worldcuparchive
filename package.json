@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/maaztageldin/worldcuparchive#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^2.37.0",
     "express": "^4.18.2",
     "express-graphql": "^0.12.0",
     "graphql": "^15.8.0",
