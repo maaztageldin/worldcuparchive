@@ -2,7 +2,6 @@ import {
     GraphQLObjectType,
     GraphQLID,
   } from 'graphql';
-import Team from './Team';
 import Match from './Match';
 import Group from './Group';
   

@@ -3,8 +3,9 @@ import {
     GraphQLID,
     GraphQLString,
   } from 'graphql';
-import Team from './Team';
   
+import Team from './Team';
+console.log("Group.ts");
   export default new GraphQLObjectType({
     name: 'Group',
     fields: {

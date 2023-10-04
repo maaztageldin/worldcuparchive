@@ -1,4 +1,8 @@
 export default /* GraphQL */ `
-  query DefaultQuery {
+  {
+    groups {
+      id
+      name
+    }
   }
 `;
