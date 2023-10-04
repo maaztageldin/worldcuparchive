@@ -1,4 +1,7 @@
 import { GraphQLSchema } from 'graphql';
-//import queryType from './types/Query';
+import queryType from './types/Query';
 
-//export default new GraphQLSchema({ query: queryType });
+console.log("index.ts -> GraphQLSchema");
+export default new GraphQLSchema({ 
+    query: queryType
+});

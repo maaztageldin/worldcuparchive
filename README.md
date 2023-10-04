@@ -1,3 +1,3 @@
 # worldcuparchive
 
-ts-node : to run the server
+ts-node server.ts: to run the server
