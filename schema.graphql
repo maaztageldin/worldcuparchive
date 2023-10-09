@@ -1,10 +1,18 @@
 type Query {
   groups: [Group]
   group(id: ID): Group
+
   teams: [Team]
+  team(id: ID): Team
+
   players: [Player]
-  tournament: Tournament
+  player(id: ID): Player
+
+  tournaments: [Tournament]
+  tournament(id: ID): Tournament
+
   matchs: [Match]
+  match(id: ID): Match
 }
 
 type Group {
@@ -24,7 +32,7 @@ type Team {
 type Player {
   id: ID
   name: String
-  position: String
+  position: PlayerPosition
   goalsScored: Int
   assists: Int
   yellowCards: Int
@@ -51,5 +59,11 @@ type Match {
   teamBScore: Int
 }
 
+enum PlayerPosition {
+  FORWARD 
+  MIDFIELDER
+  DEFENDER
+  GOALKEEPER
+}
 
 

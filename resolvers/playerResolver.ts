@@ -11,7 +11,13 @@ const playerResolver = {
           return data.map((player) => ({
             id: player.id,
             name: player.name,
-            team: player.team
+            team: player.team,
+            position: player.position,
+            goalsScored: player.goalsScored,
+            assists: player.assists,
+            yellowCards: player.yellowCards,
+            redCards: player.redCards,
+            photoURL: player.photoURL,
           }));
           
         } catch (error) {

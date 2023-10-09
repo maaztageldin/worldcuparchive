@@ -1,10 +1,8 @@
 import {
     GraphQLObjectType,
     GraphQLID,
-    GraphQLString,
     GraphQLInt
   } from 'graphql';
-import Team from './Team';
   
   export default new GraphQLObjectType({
     name: 'Stat',
