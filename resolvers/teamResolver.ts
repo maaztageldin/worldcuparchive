@@ -7,8 +7,8 @@ const teamResolver = {
           const { data, error } = await database
           .from('Teams')
           .select('*');
-          console.log(data);
-          console.log(error);
+          //console.log(data);
+          //console.log(error);
 
 
           if (error) {

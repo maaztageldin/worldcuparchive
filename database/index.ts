@@ -17,7 +17,7 @@ let database = createClient();
     }
     return data;
   };*/
-
+  /*
   export const findGroupById = elemenById('Groups',Group);
   export const findTeamById = elemenById('Teams',Team);
   export const findMatchById = elemenById('Matchs',Match);
@@ -36,6 +36,6 @@ let database = createClient();
       }
       return data;
     };
-  }
+  }*/
   
 export default database;
