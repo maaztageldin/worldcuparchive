@@ -11,7 +11,9 @@ const tournamentResolver = {
           return data.map((tournament) => ({
             id: tournament.id,
             name: tournament.name,
-          
+            startDate: tournament.startDate,
+            endDate: tournament.endDate,
+            topScorer: tournament.topScorer
           }));
           
         } catch (error) {
